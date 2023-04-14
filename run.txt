@@ -1,0 +1,4 @@
+gcc -g cli.cpp -lstdc++ -lws2_32 -o cli.exe  
+./cli.exe
+gcc -g svr.cpp -lstdc++ -lws2_32 -o svr.exe  
+./svr.exe
